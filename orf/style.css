@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+}
+
+.navigation {
+  height: 23px;
+  background-color: #9e0b0f;
+  font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande,
+    sans-serif;
+  padding-top: 7px;
+  font-size: 14px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-right: 10px;
+  align-items: center;
+}
+.wrapper {
+  padding-left: 3%;
+  width: 60em;
+  position: absolute;
+}
+.logo {
+  height: 80px;
+  background-color: #bb131a;
+  color: white;
+  font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande,
+    sans-serif;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 15px;
+  display: block;
+}
+#logo {
+  width: 105px;
+  height: 39px;
+}
+.box {
+  height: 70%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-navigation {
+  display: flex;
+  height: 25px;
+  background-color: #790000;
+  font-family: "ORF ON Condensed", "Helvetica Condensed",
+    "Helvetica Neue Condensed", "Arial Narrow", Arial, Helvetica,
+    Lucida Sans Unicode, Lucida Grande, sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  padding-top: 0.5%;
+}
+.site-navigation-left {
+  width: 90%;
+}
+.site-navigation-right {
+  display: flex;
+  width: 10%;
+  justify-content: flex-end;
+  padding-right: 0.5%;
+  padding-bottom: 0.5%;
+}
+.titlepicture {
+  padding-top: 1%;
+}
+.titleimg {
+  width: 60em;
+  position: relative;
+}
+.story {
+  font-family: "ORF ON Condensed", "Helvetica Condensed",
+    "Helvetica Neue Condensed", "Arial Narrow", Arial, Helvetica,
+    Lucida Sans Unicode, Lucida Grande, sans-serif;
+  background-color: white;
+  width: 700px;
+  height: 230px;
+  position: relative;
+  left: 120px;
+  bottom: 100px;
+  padding-left: 27px;
+  padding-right: 27px;
+  margin-bottom: 16px;
+}
+.title {
+  color: #84868c;
+  font-size: 1.25rem;
+  padding-top: 20px;
+}
+.headline {
+  font-size: 2.25rem;
+  line-height: 2.7rem;
+  padding-top: 10px;
+  font-weight: 700;
+}
+.text {
+  padding-top: 15px;
+  font-size: 20px;
+  line-height: 140%;
+}
+body{
+  background-color: #D6DCDE;
+}
+.conten{
+  background-color: white;
+  height: 100%;
+  position: absolute;
+}
