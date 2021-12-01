@@ -1,0 +1,17 @@
+.tasks{
+    height: 60vh;
+    width: 30vw;
+    background-color: aliceblue;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+*{margin-left: 20px;
+
+
+}
+.input{
+    margin-bottom: 30px;
+}
+.button{
+    margin-top: 30px;
+}

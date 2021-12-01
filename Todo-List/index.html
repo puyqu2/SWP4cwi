@@ -11,15 +11,16 @@
 <body>
     <div class="body">
         <div class="header"></div>
-        <div class="tasks"></div>
+        <div class="tasks" id="addtask"> </div>
         <div class="input">
             <div class="task">
                 <label for="1">Task: </label><br>
-                <input type="text" name="task" id="1"></div>
+                <input type="text" name="task" id="taskInput"></div>
             <div class="name">
                 <label for="2">Name:</label><br>
-                <input type="text" name="name" id="2">
+                <input type="text" name="name" id="nameInput">
             </div>
+            <div class="button" onclick="addTask()"><button>Task hinzufügen</button></div>
         </div>
     </div>
     
