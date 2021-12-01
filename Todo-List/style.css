@@ -1,9 +1,12 @@
 .tasks{
     height: 60vh;
     width: 30vw;
-    background-color: aliceblue;
+    background-color: white;
     margin-bottom: 30px;
     margin-left: 60px;
+    padding-top: 1px;
+    border: 1px solid black;
+    
 }
 *{margin-left: 20px;
 
@@ -14,4 +17,9 @@
 }
 .button{
     margin-top: 30px;
+}
+.addedTask{
+    background-color: whitesmoke;
+    margin: 5px;
+    
 }

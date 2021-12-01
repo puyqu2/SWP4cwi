@@ -7,6 +7,7 @@ function addTask() {
     var container = document.getElementById("addtask");
     var newDiv = document.createElement("div");
     newDiv.setAttribute("id", i);
+    newDiv.setAttribute("class", "addedTask");
     newDiv.setAttribute("onclick", "deleteTask(id)")
     newDiv.innerHTML = task + "-" + name ;
     container.appendChild(newDiv);
