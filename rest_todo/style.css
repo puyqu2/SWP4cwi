@@ -14,3 +14,13 @@ button:hover{
     background-color: rgb(35, 255, 182);
     cursor: pointer;
 }
+
+.content{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.content li{
+  background-color: rgb(187, 181, 181);
+  padding: 15px;
+  margin-bottom: 2px;
+}
