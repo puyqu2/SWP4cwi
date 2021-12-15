@@ -1,0 +1,16 @@
+.buttons {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+button{
+    padding: 20px;
+    margin: 10px;
+    border-style: none;
+    background-color:aquamarine;
+    
+}
+button:hover{
+    background-color: rgb(35, 255, 182);
+    cursor: pointer;
+}
