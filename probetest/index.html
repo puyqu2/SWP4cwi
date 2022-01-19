@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <div class="input">
+          <div class="inputfields">
+            <div class="input1">
+              <input type="text" name="input1" id="input1" value="Größe" />
+            </div>
+            <div class="input2">
+              <input type="text" name="input2" id="input2" value="Gewicht" />
+            </div>
+          </div>
+          <div class="button">
+            <input
+              type="button"
+              value="Do the magic"
+              id="button1"
+              onclick="giveOutput()"
+            />
+          </div>
+        </div>
+
+        <div class="output">
+          <div class="box" id="output"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
