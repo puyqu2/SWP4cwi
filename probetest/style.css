@@ -1,0 +1,56 @@
+.wrapper {
+  position: absolute;
+  background-color: grey;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  left: 35vw;
+  width: 30vw;
+  height: 30vh;
+  top: 35vh;
+  position: absolute;
+  background-color: yellowgreen;
+}
+.input {
+  height: 100%;
+  width: 50%;
+}
+.inputfields {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+}
+.input1 {
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.input2 {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+.button {
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  width: 50%;
+}
+#button1 {
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 5px;
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+.output {
+  padding-top: 25px;
+  padding-left: 30px;
+}
+.output{
+    background-color: white;
+    margin: 30px;
+    width: 40%;
+}
