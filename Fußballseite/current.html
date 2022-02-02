@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@500&display=swap" rel="stylesheet" />
     <title>Document</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="wrapper">
-      <div class="menubar">
-        <div class="menupicture">
-          <div class="text"></div>
-          <div class="picture"><img class="picture" src="fußball.png" ></div>
+        <div class="menubar">
+            <div class="text">
+
+                <div class="home"><a id="home" href="home.html">Home</a></div>
+
+                <div class="list">
+                    <ul>
+                        <li><a id="headings" href="matches.html">Matches</a></li>
+                        <li><a id="headings" href="tabels.html">Tabels</a></li>
+                        <li><a id="headings" href="current.html">Current</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menupicture">
+                <div class="picture"><img class="picture" src="fußball.png" /></div>
+            </div>
+            <div class="menudetail"></div>
         </div>
-        <div class="menudetail"></div>
-      </div>
-      <div class="content"></div>
+        <div class="content">
+          <h1>Aktuelles</h1>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
