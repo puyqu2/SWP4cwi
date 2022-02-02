@@ -90,3 +90,7 @@ p{
   padding-left: 5px;
 
 }
+#table{
+  text-decoration: none;
+  list-style-type: numeric;
+}
