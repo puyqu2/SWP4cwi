@@ -75,9 +75,18 @@ li {
 }
 .content{
   position: absolute;
-  top: 160px;
-  padding: 100px;
+  top: 200px;
+  padding-left: 123px;
+  width: 1000px;
 }
 h1{
   font-size: 30px;
+  font-family: "Yrsa", serif;
+  font-style: normal;
+  color: #4e4e4e;
+}
+p{
+  padding-top: 10px;
+  padding-left: 5px;
+
 }
