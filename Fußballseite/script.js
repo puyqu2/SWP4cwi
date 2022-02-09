@@ -38,15 +38,45 @@ function loadMatches() {
       data.forEach((matches) => {
         html +=
           "<li>" +
-          matches.MatchDateTime +
+          "<img class=" +
+          "logos" +
+          " src=" +
+          matches.Team1.TeamIconUrl +
+          " />" +
           "<br>" +
           "<br>" +
           matches.Team1.TeamName +
           "</li>" +
+          "<br>" +
+          "<br>" +
           "<br>";
         html2 +=
-          "<li>" + "<br>" + "<br>" + matches.Team2.TeamName + "</li>" + "<br>";
-        html3 += "<li>" + "<br>" + "<br>" + "VS" + "</li>" + "<br>";
+          "<li>" +
+          "<img class=" +
+          "logos" +
+          " src=" +
+          matches.Team2.TeamIconUrl +
+          " />" +
+          "<br>" +
+          "<br>" +
+          matches.Team2.TeamName +
+          "</li>" +
+          "<br>" +
+          "<br>" +
+          "<br>";
+
+        html3 +=
+          "<li>" +
+          "<br>" +
+          matches.MatchDateTime +
+          "<br>" +
+          "<br>" +
+          "<br>" +
+          "<br>" +
+          "VS" +
+          "</li>" +
+          "<br>" +
+          "<br>";
       });
       document.getElementById("team1").innerHTML = html;
       document.getElementById("VS").innerHTML = html3;
