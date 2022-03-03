@@ -1,16 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import SuperButton from './components/SuperButton';
-import ButtonRow from './components/ButtonRow';
+import SuperList from './components05/list';
 
 function App() {
   return (
     <div className="App">
-        <h1>Hallo</h1>
-        <SuperButton/>
-        <ButtonRow/>
-        <ButtonRow/>
-        <ButtonRow/>
+    <SuperList/>        
     </div>
   );
 }
