@@ -1,0 +1,15 @@
+.button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  width: 170px;
+}
+.outerButton {
+  padding-left: 40px;
+}
+.button:hover{background-color: darkgreen;}

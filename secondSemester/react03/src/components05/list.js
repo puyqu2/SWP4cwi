@@ -1,13 +1,13 @@
 import { Component } from "react";
-
+import styles from "./list.module.css"
 export default class SuperList extends Component {
   render() {
     return (
-      <div>
+      <div className={styles.list}>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Beer</li>
+          <li className={styles.listObject}>Coffee</li>
+          <li className={styles.listObject}>Tea</li>
+          <li className={styles.listObject}>Beer</li>
         </ul>
       </div>
     );
