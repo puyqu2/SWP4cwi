@@ -1,0 +1,12 @@
+.card{
+    background-color: aquamarine;
+    min-height: 50px;
+    width: 200px;
+    text-align: center;
+    margin: 15px;
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: rgb(82, 197, 159);
+}

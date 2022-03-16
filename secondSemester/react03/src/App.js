@@ -1,18 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
-import SuperList from "./components05/list";
-import Button from "./components05/button";
-import Card from "./components05/card";
+
+import Vote from "./components07/vote";
 
 function App() {
   return (
     <div className="App">
-      
-        <SuperList />
-        <Button />
-      
-      <div>
-        <Card />
+      <div className="container">
+      <Vote candidate="Jürgen" address="Reuthe"/>
+      <Vote candidate="Hans" address="Bizau"/>
+      <Vote candidate="Peter" address="Mellau"/>
       </div>
     </div>
   );
