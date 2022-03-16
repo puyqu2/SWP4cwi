@@ -1,14 +1,14 @@
 import "./App.css";
 
-import Vote from "./components07/vote";
+import Counter from "./components08/counter";
+import CounterFunc from "./components08/CounterFunc";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-      <Vote candidate="Jürgen" address="Reuthe"/>
-      <Vote candidate="Hans" address="Bizau"/>
-      <Vote candidate="Peter" address="Mellau"/>
+      <Counter/>
+      <CounterFunc/>
       </div>
     </div>
   );
