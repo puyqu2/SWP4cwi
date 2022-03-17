@@ -1,0 +1,9 @@
+.container{
+    min-width: 400px;
+    width: 50vw;
+}
+.center{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}

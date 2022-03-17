@@ -1,15 +1,16 @@
 import "./App.css";
+import Header from "./componentsToDoList/Header";
+import TaskAdder from "./componentsToDoList/TaskAdder";
+import TodoList from "./componentsToDoList/TodoList";
 
-import Counter from "./components08/counter";
-import CounterFunc from "./components08/CounterFunc";
+
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-      <Counter/>
-      <CounterFunc/>
-      </div>
+      <Header/>
+      <TaskAdder/>
+      <TodoList/>
     </div>
   );
 }
